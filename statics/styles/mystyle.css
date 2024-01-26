@@ -39,8 +39,44 @@ body {
     color: white;
   }
 
+  /* Hide the link that should open and close the topnav on small screens */
+  .Nav .icon {
+    display: none;
+  }
+
   /* Section */
   section {
     height: 100vh;
     scroll-snap-align: start;
+  }
+
+
+  /* Responsive */
+
+  /* Navbar */
+  @media screen and (max-width: 600px) {
+    .Nav a:not(:first-child) {display: none;}
+    .Nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .Nav.responsive {
+      position: fixed;
+      width: 100%;
+      flex-direction: column; /* Stack the buttons vertically */ 
+      height: auto;
+    }
+    .Nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .Nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
   }
