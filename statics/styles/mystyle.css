@@ -68,7 +68,7 @@ body {
     padding-top: 20px;
   }
   div.left{
-    margin: auto;
+    margin-left: 3%;
     left: 0;
   }
   div.right{
