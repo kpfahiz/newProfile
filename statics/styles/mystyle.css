@@ -8,7 +8,7 @@ body {
 }
 
 /* Navbar */
-.Nav {
+  .Nav {
     overflow: hidden;
     background-color: #333;
     position: fixed;
@@ -48,6 +48,31 @@ body {
   section {
     height: 100vh;
     scroll-snap-align: start;
+    width: 1280px;
+  }
+  /* Home */
+  div.left{
+    margin: auto;
+  }
+  h3.hi{
+    color: #93CB4C;
+    font-family: "DM Serif Display";
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60%;
+    margin-left: 2%;
+    vertical-align: middle;
+  }
+  h3.name{
+    color: #000;
+    font-family: "DM Serif Display";
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60%;
+    margin-left: 2%;
+    vertical-align: middle;
   }
 
 
