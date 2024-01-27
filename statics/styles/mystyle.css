@@ -58,8 +58,22 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+  .split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
   div.left{
     margin: auto;
+    left: 0;
+  }
+  div.right{
+    margin: auto;
+    right: 0;
   }
   h3.hi{
     color: #93CB4C;
