@@ -30,7 +30,7 @@ body {
     font-weight: bolder;
     text-decoration: none;
     font-size: 17px;
-    /* width: 16.5%; */
+    width: 16.5%;
   }
   
   .Nav a:hover {
@@ -107,7 +107,7 @@ body {
   @media screen and (max-width: 600px) {
     .Nav a:not(:first-child) {
       display: none;
-      /* width: 50%; */
+      width: 50%;
     }
     .Nav a.icon {
       float: right;
