@@ -30,7 +30,7 @@ body {
     font-weight: bolder;
     text-decoration: none;
     font-size: 17px;
-    width: 16.5%;
+    /* width: 16.5%; */
   }
   
   .Nav a:hover {
@@ -61,16 +61,17 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    z-index: -1;
   }
-  /* .split{
-    height: 100%;
+  .split{
+    height: 80%;
     width: 50%;
-    position: fixed;
+    position:absolute;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
-  } */
+  }
   div.left{
     margin-left: 3%;
     left: 0;
@@ -106,7 +107,7 @@ body {
   @media screen and (max-width: 600px) {
     .Nav a:not(:first-child) {
       display: none;
-      width: 50%;
+      /* width: 50%; */
     }
     .Nav a.icon {
       float: right;
