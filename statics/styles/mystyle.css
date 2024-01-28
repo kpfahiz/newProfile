@@ -52,7 +52,6 @@ body {
   section {
     height: 100vh;
     scroll-snap-align: start;
-    width: 1280px;
   }
   /* Home */
   section#Home{
@@ -60,9 +59,20 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+  
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+  
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+    background-attachment: fixed;
+  
+    /* This is what makes the background image rescale based on its container's size */
     background-size: cover;
     z-index: -1;
-  }
+  } 
   .split{
     height: 80%;
     width: 50%;
@@ -113,6 +123,24 @@ body {
       float: right;
       display: block;
     }
+    /* Home */
+    .split{
+      height: 80%;
+      width: 50%;
+      position:absolute;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    div.left{
+      margin-left: 3%;
+      left: 0;
+    }
+    div.right{
+      margin: auto;
+      right: 0;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -120,7 +148,7 @@ body {
       position: fixed;
       width: 100%;
       flex-direction: column; /* Stack the buttons vertically */ 
-      height: auto;
+      height: 50%;
     }
     .Nav.responsive .icon {
       position: absolute;
