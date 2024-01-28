@@ -110,8 +110,8 @@ body {
     margin-left: 2%;
   }
   img.pro_pic{
-    height:550px;
-    width:550px;
+    width: 531px;
+    height: 572px;
   }
   i.social{
     font-size: 50px;
@@ -195,4 +195,26 @@ body {
       display: block;
       text-align: left;
     }
+  }
+
+  .container{
+    display: inline-block;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .10em solid #93CB4C;
+    white-space: nowrap;
+    /* animation: typing 5s forwards; */
+    animation: typing 5s steps(22), blink .5s step-end infinite alternate;
+    color: #000;
+    font-family: "DM Serif Display";
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-left: 2%;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 85% }
   }
