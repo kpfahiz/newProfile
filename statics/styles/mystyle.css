@@ -10,8 +10,9 @@ body {
 /* Navbar */
   .Nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #3333333f;
     position: fixed;
+    color: #000;
     bottom: 0;
     width: 100%;
     display: flex; /* Use flexbox to create a horizontal layout */
