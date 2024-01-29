@@ -162,6 +162,25 @@ body {
     padding-left: 50px;
 
   }
+  ul.contacts{
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+  }
+  .contacts li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  p.Address{
+    color: #70B27D;
+    font-family: "PT Serif";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 
   /* Responsive */
 
