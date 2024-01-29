@@ -142,6 +142,45 @@ body {
     background-size: cover;
     z-index: -1;
   }
+  h3.hi_there{
+    color: #93CB4C;
+    font-family: "PT Serif";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 50px;
+  }
+  p.Intro{
+    color: #000;
+    font-family: "PT Serif";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 50px;
+    padding-left: 50px;
+
+  }
+  ul.contacts{
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+  }
+  .contacts li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  p.Address{
+    color: #70B27D;
+    font-family: "PT Serif";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 
   /* Responsive */
 
