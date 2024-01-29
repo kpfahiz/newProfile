@@ -151,6 +151,17 @@ body {
     line-height: normal;
     padding: 50px;
   }
+  p.Intro{
+    color: #000;
+    font-family: "PT Serif";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 50px;
+    padding-left: 50px;
+
+  }
 
   /* Responsive */
 
