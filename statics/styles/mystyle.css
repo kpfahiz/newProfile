@@ -173,18 +173,24 @@ body {
     font-size: 20px;
     padding: 20px;
   }
-  p.Address{
+  ul.left{
     color: #70B27D;
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
     font-family: "PT Serif";
     font-size: 27px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
-  p.content{
+  li.content{
     color: #000;
     font-family: "PT Serif";
+    display: inline-block;
     font-size: 27px;
+    padding: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
