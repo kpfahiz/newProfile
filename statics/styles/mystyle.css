@@ -176,7 +176,7 @@ body {
   ul.left{
     color: #70B27D;
     list-style-type: none;
-    text-align: center; 
+    text-align: justify; 
     padding: 0;
     margin: 0;
     font-family: "PT Serif";
@@ -190,10 +190,38 @@ body {
     font-family: "PT Serif";
     display: inline-block;
     font-size: 27px;
-    padding: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+  a.a_dwn_cv{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+  div.download_cv{
+    width: 274px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #A7F0BA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+  }
+  p.dwn_cv_type{
+    color: var(--photo, #FFF);
+    font-family: "PT Serif";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding: 15px;
+  }
+  i.fa-download{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000;
   }
 
   /* Responsive */
