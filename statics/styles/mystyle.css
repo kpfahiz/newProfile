@@ -181,6 +181,14 @@ body {
     font-weight: 400;
     line-height: normal;
   }
+  p.content{
+    color: #000;
+    font-family: "PT Serif";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 
   /* Responsive */
 
