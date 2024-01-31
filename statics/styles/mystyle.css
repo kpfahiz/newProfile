@@ -248,6 +248,17 @@ body {
     background-size: cover;
     z-index: -1;
   }
+  h1.skills_h1{
+    color: #000;
+    font-family: Kadwa;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+  }
 
   /* Responsive */
 
