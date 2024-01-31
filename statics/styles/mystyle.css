@@ -223,6 +223,68 @@ body {
     flex-shrink: 0;
     color: #000;
   }
+  div.download_cv:active{
+    transform: scale(0.98);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24); 
+  }
+
+  /* Skills */
+  section#Skills{
+    background-image: url("../img/bg/3274764.jpg") ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    background-color: lightgray  50%; 
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+  
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+    background-attachment: fixed;
+  
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    z-index: -1;
+  }
+  h1.skills_h1{
+    color: #000;
+    font-family: Kadwa;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 25px 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .grid-item {
+    border-radius: 25px;
+    background: rgba(183, 183, 183, 0.18);
+    padding: 5px;
+    text-align: center;
+  }
+  img.skill_icon{
+    height: 125px;
+    width: 125px;
+  }
+  p.skill_txt{
+    color: #000;
+    font-family: Kadwa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+  }
 
   /* Responsive */
 
