@@ -263,19 +263,27 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
-    gap: 50px 50px;
-    margin: 10px;
+    gap: 25px 25px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
   .grid-item {
     border-radius: 25px;
     background: rgba(183, 183, 183, 0.18);
-    padding: 20px;
-    font-size: 30px;
+    padding: 5px;
     text-align: center;
   }
   img.skill_icon{
-    height: 148px;
-    width: 148px;
+    height: 125px;
+    width: 125px;
+  }
+  p.skill_txt{
+    color: #000;
+    font-family: Kadwa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
   }
 
   /* Responsive */
