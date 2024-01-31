@@ -264,6 +264,7 @@ body {
     grid-template-columns: auto auto auto auto;
     padding: 10px;
     gap: 50px 50px;
+    margin: 10px;
   }
   .grid-item {
     border-radius: 25px;
@@ -271,6 +272,10 @@ body {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+  }
+  img.skill_icon{
+    height: 148px;
+    width: 148px;
   }
 
   /* Responsive */
