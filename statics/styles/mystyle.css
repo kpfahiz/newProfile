@@ -259,6 +259,19 @@ body {
     margin: auto;
     padding: 15px;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 50px 50px;
+  }
+  .grid-item {
+    border-radius: 25px;
+    background: rgba(183, 183, 183, 0.18);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
 
   /* Responsive */
 
