@@ -114,3 +114,58 @@ window.onclick = function(event) {
     modal_iot.style.display = "none";
   }
 }
+
+//GCP
+// Get the modal
+var modal_gcp = document.getElementById("gcp");
+
+// Get the button that opens the modal
+var btn_gcp = document.getElementById("gcpBtn");
+
+// Get the <span> element that closes the modal
+var span_gcp = document.getElementsByClassName("gcp_close")[0];
+
+// When the user clicks on the button, open the modal
+btn_gcp.onclick = function() {
+  modal_gcp.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span_gcp.onclick = function() {
+  modal_gcp.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal_gcp ) {
+    modal_gcp.style.display = "none";
+  }
+}
+
+//Shell
+// Get the modal
+var modal_shell = document.getElementById("shell");
+
+// Get the button that opens the modal
+var btn_shell = document.getElementById("shellBtn");
+
+// Get the <span> element that closes the modal
+var span_shell = document.getElementsByClassName("shell_close")[0];
+
+// When the user clicks on the button, open the modal
+btn_shell.onclick = function() {
+  modal_shell.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span_shell.onclick = function() {
+  modal_shell.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal_shell ) {
+    modal_shell.style.display = "none";
+  }
+}
+

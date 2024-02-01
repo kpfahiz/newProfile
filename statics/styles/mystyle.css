@@ -335,7 +335,8 @@ body {
   }
 
   /* The Close Button */
-  .python_close,.data_close,.django_close,.iot_close {
+  .python_close,.data_close,.django_close,.iot_close,.gcp_close,
+  .shell_close,.sql_close {
     color: #aaa;
     float: right;
     font-size: 28px;
