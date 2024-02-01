@@ -7,6 +7,7 @@ function myFunction() {
     }
   }
 
+// Python
 // Get the modal
 var modal_python = document.getElementById("python");
 
@@ -33,6 +34,7 @@ window.onclick = function(event) {
   }
 }
 
+//Data Science
 // Get the modal
 var modal_data = document.getElementById("datascience");
 
@@ -56,5 +58,32 @@ span_data.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modal_data) {
     modal_data.style.display = "none";
+  }
+}
+
+//Django
+// Get the modal
+var modal_django = document.getElementById("django");
+
+// Get the button that opens the modal
+var btn_django = document.getElementById("djangoBtn");
+
+// Get the <span> element that closes the modal
+var span_django = document.getElementsByClassName("django_close")[0];
+
+// When the user clicks on the button, open the modal
+btn_django.onclick = function() {
+  modal_django.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span_django.onclick = function() {
+  modal_django.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal_django ) {
+    modal_django.style.display = "none";
   }
 }
