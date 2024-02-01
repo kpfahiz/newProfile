@@ -169,3 +169,29 @@ window.onclick = function(event) {
   }
 }
 
+//Sql
+// Get the modal
+var modal_sql = document.getElementById("sql");
+
+// Get the button that opens the modal
+var btn_sql = document.getElementById("sqlBtn");
+
+// Get the <span> element that closes the modal
+var span_sql = document.getElementsByClassName("sql_close")[0];
+
+// When the user clicks on the button, open the modal
+btn_sql.onclick = function() {
+  modal_sql.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span_sql.onclick = function() {
+  modal_sql.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal_sql ) {
+    modal_sql.style.display = "none";
+  }
+}
