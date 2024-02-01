@@ -267,6 +267,9 @@ body {
     margin-left: 50px;
     margin-right: 50px;
   }
+  .grid-container :hover{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  }
   .grid-item {
     border-radius: 25px;
     background: rgba(183, 183, 183, 0.18);
