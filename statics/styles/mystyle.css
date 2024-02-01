@@ -267,8 +267,18 @@ body {
     margin-left: 50px;
     margin-right: 50px;
   }
-  .grid-container :hover{
+  div.grid-container :hover{
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
+  }
+  .grid-container :active{
+    transform: translate(0.98);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  }
+  a.skill_a{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    box-shadow: inherit; 
   }
   .grid-item {
     border-radius: 25px;
