@@ -87,3 +87,30 @@ window.onclick = function(event) {
     modal_django.style.display = "none";
   }
 }
+
+//IoT
+// Get the modal
+var modal_iot = document.getElementById("iot");
+
+// Get the button that opens the modal
+var btn_iot = document.getElementById("iotBtn");
+
+// Get the <span> element that closes the modal
+var span_iot = document.getElementsByClassName("iot_close")[0];
+
+// When the user clicks on the button, open the modal
+btn_iot.onclick = function() {
+  modal_iot.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span_iot.onclick = function() {
+  modal_iot.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal_iot ) {
+    modal_iot.style.display = "none";
+  }
+}
