@@ -32,3 +32,29 @@ window.onclick = function(event) {
     modal_python.style.display = "none";
   }
 }
+
+// Get the modal
+var modal_data = document.getElementById("datascience");
+
+// Get the button that opens the modal
+var btn_data = document.getElementById("dataBtn");
+
+// Get the <span> element that closes the modal
+var span_data = document.getElementsByClassName("data_close")[0];
+
+// When the user clicks on the button, open the modal
+btn_data.onclick = function() {
+  modal_data.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span_data.onclick = function() {
+  modal_data.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal_data) {
+    modal_data.style.display = "none";
+  }
+}
