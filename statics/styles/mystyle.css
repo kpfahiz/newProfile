@@ -267,6 +267,19 @@ body {
     margin-left: 50px;
     margin-right: 50px;
   }
+  div.grid-container :hover{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
+  }
+  .grid-container :active{
+    transform: translate(0.98);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  }
+  a.skill_a{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    box-shadow: inherit; 
+  }
   .grid-item {
     border-radius: 25px;
     background: rgba(183, 183, 183, 0.18);
@@ -285,6 +298,56 @@ body {
     font-weight: bold;
     line-height: normal;
   }
+  /* Model */
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 101;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    box-shadow: 20px 15px 20px 0px rgb(255 255 255 / 20%);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    /* Let's add the overflow-y property and set it to auto */
+    overflow-y: auto;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 90%; /* Could be more or less, depending on screen size */
+    text-align: justify;
+  }
+
+  /* The MOdel Body */
+  .modal-body{
+    height: 250px;
+    overflow-y: auto;
+  }
+
+  /* The Close Button */
+  .python_close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
 
   /* Responsive */
 

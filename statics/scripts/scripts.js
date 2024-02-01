@@ -6,3 +6,29 @@ function myFunction() {
       x.className = "Nav";
     }
   }
+
+// Get the modal
+var modal_python = document.getElementById("python");
+
+// Get the button that opens the modal
+var btn_python = document.getElementById("pythonBtn");
+
+// Get the <span> element that closes the modal
+var span_python = document.getElementsByClassName("python_close")[0];
+
+// When the user clicks on the button, open the modal
+btn_python.onclick = function() {
+  modal_python.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span_python.onclick = function() {
+  modal_python.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal_python) {
+    modal_python.style.display = "none";
+  }
+}
