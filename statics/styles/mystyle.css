@@ -122,10 +122,36 @@ body {
     color: #00000089;
   }
   /* */
-  div.profile{
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="%23808"><path d="M1912 1209c27-319-72-699-318-882-187-139-462-224-785-204S85 468 84 880c0 455 481 345 636 484s139 514 477 516c386 3 693-420 715-671Z"></path></svg>');
-    background-repeat: no-repeat;
+  .img-overlay-wrap {
+    position: relative;
+    display: inline-block;
+    transition: transform 150ms ease-in-out;
+    
   }
+  
+  .img-overlay-wrap img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    
+  }
+  
+  .img-overlay-wrap svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .bg1{
+    height: 650px;
+    position: fixed;
+  }
+  path.bg2{
+    transform: rotate(180deg);
+  }
+  
+  /* .img-overlay-wrap:hover {
+    transform: rotate(15deg);
+  } */
 
   /* About */
   section#About{
