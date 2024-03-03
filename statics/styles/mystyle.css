@@ -145,7 +145,7 @@ body {
     height: 650px;
     position: fixed;
   }
-  path.bg2{
+  .bg2{
     transform: rotate(180deg);
   }
   
