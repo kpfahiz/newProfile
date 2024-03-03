@@ -110,8 +110,12 @@ body {
     margin-left: 2%;
   }
   img.pro_pic{
-    width: 531px;
-    height: 572px;
+    width: 501px;
+    height: 522px;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding-left: 110px;
+    
   }
   i.social{
     font-size: 50px;
@@ -143,7 +147,7 @@ body {
   }
   .bg1{
     height: 650px;
-    position: fixed;
+    margin: auto ;
   }
   .bg2{
     transform: rotate(180deg);
