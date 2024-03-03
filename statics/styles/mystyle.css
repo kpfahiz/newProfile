@@ -149,10 +149,19 @@ body {
     height: 650px;
     margin: auto ;
   }
-  .bg2{
-    transform: rotate(180deg);
+ @keyframes bg-pro-pic{
+  0% {
+    transform: scale(0.5);
   }
-  
+  100% {
+    transform: scale(1.0);
+  }
+ }
+ div.img-overlay-wrap :hover ~ .svg1{
+  animation-name: bg-pro-pic;
+  animation-duration: 4s;
+  animation-delay: -2s;
+ }
   /* .img-overlay-wrap:hover {
     transform: rotate(15deg);
   } */
